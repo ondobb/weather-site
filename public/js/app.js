@@ -1,4 +1,4 @@
-
+console.log('git');
 
 const form = document.querySelector('form');
 form.addEventListener('submit', (e) => {
