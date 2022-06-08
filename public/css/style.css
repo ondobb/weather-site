@@ -84,3 +84,13 @@ button {
     cursor: pointer;
 }
 
+p {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #888888;
+}
+
+a{
+    text-decoration: none;
+}
+

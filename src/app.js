@@ -39,7 +39,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        description: 'this is a weather app',
+        description: 'For a propper location search ',
         author: 'Ondo B. Bindang'
     });
 });

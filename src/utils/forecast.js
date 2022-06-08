@@ -16,7 +16,7 @@ const forecast = (latitude, longtitude, callback) => {
             callback('Unable to find the location!', undefined);
         } else {
             let data = response.body;
-            callback(undefined, data.current.temperature);
+            callback(undefined, data.current.weather_descriptions[0] + ". It is currently " + data.current.temperature + ' degress out but it feels like ' + data.current.feelslike + ' degress out. The humidity is ' + data.current.humidity + ' %.');
         }
 
     } );
