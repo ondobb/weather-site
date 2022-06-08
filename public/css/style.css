@@ -1,0 +1,86 @@
+body {
+    background-color: #eeeeee;
+    color: #333333;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex-grow: 1;
+    background-color: white;
+}
+
+h1 {
+    /* text-align: center; */
+    font-size: 64px;
+    margin-bottom: 15px;
+}
+
+img {
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.tex-center {
+    text-align: center;
+}
+
+.center {   
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.test {
+    text-align: center;
+}
+
+.author {
+    text-align: center;
+}
+
+.not {
+    text-align: center;
+    font-size: 200px;
+    color: #434812;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+header a {
+    color: #888888;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+footer {
+    /* background-color: ; */
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    background-color: white;
+}
+
+input, button {
+    border: 1px solid #eeeeee;
+    padding: 8px;
+}
+
+button {
+    border: 1px solid #eeeeee;
+    padding: 8px;
+    cursor: pointer;
+}
+
